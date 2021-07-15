@@ -1,7 +1,7 @@
 import os
+import csv
 import json
 import requests
-from pprint import pprint
 
 api_token = os.environ["IGGY_API_TOKEN"]
 
@@ -26,17 +26,11 @@ def main():
     with open("points.json") as f:
         points = json.load(f)
 
-    commutes = []
-    for p in points:
-        commutes.append(
-            (
-                p["latitude"],
-                p["longitude"],
-                get_bike_commutes(p["latitude"], p["longitude"]),
-            )
-        )
-
-    pprint(commutes)
+    with open('output.csv', 'w') as csvfile:
+        w = csv.writer(csvfile, delimiter=',',quoting=csv.QUOTE_MINIMAL)
+        w.writerow(['latitude', 'longitude', 'pop_commutes_by_bicycle'])
+        for p in points:
+            w.writerow([p["latitude"], p["longitude"], get_bike_commutes(p["latitude"], p["longitude"])])
 
 
 if __name__ == "__main__":
