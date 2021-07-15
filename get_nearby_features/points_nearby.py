@@ -26,10 +26,8 @@ def main():
 
     stations = get_fire_stations(latitude, longitude)
 
-    for s in stations:
-        s['type'] = "Feature"
-
-    print(json.dumps({"type": "FeatureCollection", "features": stations}))
+    with open('output.json', 'w') as f:
+        json.dump({"type": "FeatureCollection", "features": stations}, f, indent=2)
 
 if __name__ == "__main__":
     main()

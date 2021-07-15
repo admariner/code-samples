@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "0C616C8B-C76A-487F-9ADF-43117D0A4839",
+      "geometry": {
+        "coordinates": [
+          -104.977853722,
+          39.753394493
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "zip": "80205",
+        "name": "Denver Fire Department Station 3",
+        "address": "2500 Washington Street, Denver, CO, 80205",
+        "gnis_id": 2113238,
+        "date_updated": "2015-04-29",
+        "limited_response": "no"
+      }
+    },
+    {
+      "id": "25DD0610-6CB6-4477-9820-2A7C5F8B744C",
+      "geometry": {
+        "coordinates": [
+          -105.002465999,
+          39.748273
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "zip": "80204",
+        "name": "Denver Fire Department Station 6",
+        "address": "1300 Blake Street, Denver, CO, 80204",
+        "gnis_id": 2113240,
+        "date_updated": "2019-05-03",
+        "limited_response": "no"
+      }
+    },
+    {
+      "id": "5D397161-B5C4-4897-A1EC-98B0E0A4CD1E",
+      "geometry": {
+        "coordinates": [
+          -104.967720031,
+          39.7784767150001
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "zip": "80216",
+        "name": "Denver Fire Department Station 9",
+        "address": "4400 Brighton Boulevard, Denver, CO, 80216",
+        "gnis_id": 2113243,
+        "date_updated": "2018-05-07",
+        "limited_response": "no"
+      }
+    },
+    {
+      "id": "632979C0-9684-41F0-B87F-D9293948C671",
+      "geometry": {
+        "coordinates": [
+          -104.949554,
+          39.762363
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "zip": "80205",
+        "name": "Denver Fire Department Station 10",
+        "address": "3200 Steele Street, Denver, CO, 80205",
+        "gnis_id": 2113244,
+        "date_updated": "2019-05-03",
+        "limited_response": "no"
+      }
+    },
+    {
+      "id": "DBFD91A6-3354-49C6-9C1A-A3E525BEBEE1",
+      "geometry": {
+        "coordinates": [
+          -104.971786,
+          39.742104
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "zip": "80218",
+        "name": "Denver Fire Department Station 8",
+        "address": "1616 Park Avenue, Denver, CO, 80218",
+        "gnis_id": 2113242,
+        "date_updated": "2019-05-03",
+        "limited_response": "no"
+      }
+    },
+    {
+      "id": "f2cc5a34-ee6f-446c-abc0-44368df24475",
+      "geometry": {
+        "coordinates": [
+          -104.997459412,
+          39.74042511
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "zip": "80204",
+        "name": "Denver Fire Department Station 1",
+        "address": "745 West Colfax Avenue, Denver, CO, 80204",
+        "gnis_id": 2113237,
+        "date_updated": "2017-09-20",
+        "limited_response": "no"
+      }
+    },
+    {
+      "id": "FFAEB61A-4286-4311-AF54-A62C687E9F0A",
+      "geometry": {
+        "coordinates": [
+          -104.992956458,
+          39.7508856250001
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "zip": "80202",
+        "name": "Denver Fire Department Station 4",
+        "address": "1890 Lawrence Street, Denver, CO, 80202",
+        "gnis_id": 2113239,
+        "date_updated": "2015-04-29",
+        "limited_response": "no"
+      }
+    }
+  ]
+}
