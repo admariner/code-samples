@@ -19,6 +19,15 @@ When you are looking for places or things aka "Features" that are nearby to a lo
 [In this sample we find all the fire stations within a 3km radius of Downtown Denver.](get_nearby_features/points_nearby.py)
 
 
+### Properties of Nearby Features
+
+If you have one or more points for which you want to know properties for features in the
+surrounding area, but you're not exactly sure how close your points are to the relevant
+features, you can use the [nearest properties for buffered point](https://docs.askiggy.com/reference/properties-1) API call. This takes a point as input, and returns the properties
+for the nearest feature for a given dataset from the point you specified.
+
+[In this sample we find housing units median age and percent of multi-dwelling units for coastal neighborhoods](get_feature_properties/coastal_tracts_housing_risk.py). 
+
 ## Python Environment Setup - Starting from Zero
 
 There are main ways to setup your python environment, this is a helpful guide if you are getting started on MacOS:
