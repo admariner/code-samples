@@ -10,8 +10,6 @@ import pandas as pd
 import requests
 from datetime import datetime
 
-from properties_helpers import get_properties_at_point
-
 api_token = os.environ["IGGY_API_TOKEN"]
 
 
