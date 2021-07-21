@@ -44,8 +44,6 @@ def create_map(cbg, parcel, lat, lon, zoom):
             "latitude": lat,
             "longitude": lon,
             "zoom": zoom,
-            # "pitch":  60,
-            # "bearing": -45
         },
         layers=[
             pdk.Layer(
@@ -53,13 +51,8 @@ def create_map(cbg, parcel, lat, lon, zoom):
                 data=cbg,
                 get_position=["lon", "lat"],
                 radius=100,
-                # elevation_scale=4,
-                # elevation_range=[0, 1000],
                 pickable=False,
-                # extruded=True,
-                # wireframe=True,
                 getFillColor=[3, 17, 86, 255],
-                # get_elevation="2",
                 opacity=0.5,
             ),
             pdk.Layer(
