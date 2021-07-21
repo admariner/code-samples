@@ -10,14 +10,15 @@ This repo contains code samples that help you get started with the Iggy API. For
 
 When you are starting with a point and want to know what boundary it is in or want to know properties about the area its in, using [a point selection](https://docs.askiggy.com/v0.2.0/reference/properties-1#get_properties_for_point_properties_v1_datasets__dataset_id__select_point_get) is best. This looks up the boundary your point is in, and returns the properties of that area.
 
-[In this sample we look up bicycle commute stats for census tracts in San Francisco.](points_in_boundaries/points_in_boundaries.py)
+[In this sample we look up bicycle commute stats for census tracts in San Francisco.](points_in_boundaries/bike_commutes/points_in_boundaries.py)
+
+[In another sample we look up the median age of housing units and percent of multi-unit dwellings for coastal communities in the U.S.](points_in_boundaries/coastal_housing_characteristics/coastal_tracts_housing_risk.py)
 
 ### Nearby Features
 
 When you are looking for places or things aka "Features" that are nearby to a location you can use the [buffered point selection](https://docs.askiggy.com/v0.2.0/reference/features-1#get_features_for_buffered_point_features_v1_datasets__dataset_id__select_buffered_point_get). This will return all the Features, including the geometries within the radius from the point that you specify.
 
 [In this sample we find all the fire stations within a 3km radius of Downtown Denver.](get_nearby_features/points_nearby.py)
-
 
 ## Python Environment Setup - Starting from Zero
 
